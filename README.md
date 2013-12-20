@@ -95,6 +95,11 @@ a python proxy included ('websockify').
   a running VNC server:
 
     `./utils/launch.sh --vnc localhost:5901`
+    
+    
+    
+    Para iniciar juntamente ao portal:
+    cloudsup-novnc/utils/websockify --web ./ 8787 none:none &
 
 * Point your browser to the cut-and-paste URL that is output by the
   launch script. Enter a password if the VNC server has one
